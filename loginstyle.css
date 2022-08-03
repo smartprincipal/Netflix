@@ -1,0 +1,198 @@
+/* Universal selector */
+*{
+ margin: 0%;
+ padding: 0%;
+ letter-spacing: 0 !important;
+ box-sizing: border-box;
+}
+
+body{
+ background-image: url(/asset/background.jpg);
+ font-family: Arial, Helvetica, sans-serif;
+ /* background-repeat: no-repeat; */
+ background-size: cover;
+ font-size: 16px;
+ color: #333;
+ background-color: #f3f3f3;
+ height: 100%;
+}
+/* header carrying the logo */
+.header{
+ padding-top: 20px;
+ padding-left: 20px;
+}
+
+/* Netflix logo in svg format */
+.svg{
+ height: 45px;
+ width: 167px;
+ fill: #E50914;
+ line-height: 90px;
+}
+/* container section housing other containers and element */
+.container{
+ justify-items: center;
+ background-color: rgba(0,0,0,.75);
+ height: 700px;
+ width: 450px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+ border-radius: 5px;
+ margin-bottom: 60px;
+}
+/* container inside the first container */
+.container1{
+ margin-left: 50px;
+ padding-top: 30px;
+}
+/* Element with the Sign In */
+h1{
+ color: white;
+ font-size: 32px;
+ font-weight: 700px;
+ margin-bottom: 15px;
+
+}
+.h1{
+ padding-bottom: 20px;
+ 
+}
+/* Form styling */
+input[type="text"]{
+ height: 50px;
+ width: 350px;
+ border-radius: 4px;
+ background-color: #333;
+ color: #fff;
+ line-height: 50px;
+ border-bottom: 1px solid white;
+ border: none;
+}
+input[type="text"]::placeholder{
+ color: #8c8c8c;
+ padding-left: 26px;
+ font-size: 17px;
+}
+input[type="password"]{
+ height: 50px;
+ width: 350px;
+ border-radius: 4px;
+ background-color: #333;
+ color: #fff;
+ line-height: 50px;
+ border: none;
+}
+input[type="password"]::placeholder{
+ color: #8c8c8c;
+ padding-left: 26px;
+ font-size: 17px;
+}
+input[type="submit"]{
+ background-color: red;
+ color: white;
+ border-radius: 4px;
+ height: 50px;
+ width: 350px;
+ margin-top: 50px;
+ font-size: 16px;
+ font-weight: 700PX;
+ border: none;
+}
+input[type="checkbox"]{
+ color: #b3b3b3;
+ background-color: aquamarine;
+ font-size: 13px;
+}
+.spanway{
+ color: #b3b3b3;
+ font-size: 15px;
+}
+.right{
+ float: right;
+ margin-right: 50px;
+}
+.right a{
+ color: #b3b3b3;
+ text-decoration: none;
+ font-size: 15px;
+}
+/* Section below the form */
+.new{
+ margin-top: 65px;
+ font-size: 16px;
+ color: #737373;
+ font-weight: 500px;
+}
+.new a{
+ text-decoration: none;
+ color: #fff;
+}
+.new a:hover{
+ text-decoration: underline;
+}
+.p{
+ margin-top: 11px;
+ font-size: 13px;
+ margin-right: 80px;
+ color: #8c8c8c;
+ text-align: left;
+}
+.p a{
+ color: blue;
+ text-decoration: none;
+}
+/* footer styling */
+footer{
+ background-color: rgba(0,0,0,.75);
+ height: 170px;
+}
+.footer{
+ margin-left: 300px;
+ padding-top: 20px;
+ border: 2px solid green ;
+}
+footer a:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+footer a{
+ text-decoration: none;
+ color: #737373;
+ font-size: 14px;
+}
+.first-footer a{
+ font-size: 18px;
+}
+.upper ul{
+ display: flex;
+ flex-direction: row;
+ margin-right: 80px;
+ margin-top: 30px;
+}
+.upper li{
+ margin-right: 150px;
+}
+.lower li{
+ margin-right: 60px;
+}
+.upper li:last-child{
+ position: absolute;
+ right: 200px;
+}
+.lower ul{
+ display: flex;
+ flex-direction: row;
+ margin-top: 20px;
+}
+li{
+ list-style-type: none;
+}
+
+@media screen and (max-width:768px) {
+ .footer{
+  margin-left: 50px;
+
+ }
+ 
+}
